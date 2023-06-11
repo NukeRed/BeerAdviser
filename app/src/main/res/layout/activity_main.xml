@@ -22,7 +22,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="16dp"
-        android:text="Find Beer" />
+        android:text="FIND BEER"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
 
     <TextView
         android:id="@+id/brands"
@@ -30,5 +32,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="16dp"
-        android:text="Beer types"/>
+        android:text="BEER TYPES"
+        android:textStyle="bold" />
 </LinearLayout>
